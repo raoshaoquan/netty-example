@@ -1,10 +1,29 @@
-.gradle
-.idea
+*.class
 .DS_Store
-*.iml
-disconf
+application.pid
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Eclipse
+.
+.project
 target
-build
-out
-bin
-logs
+.settings
+.classpath
+.factorypath
+
+# Idea
+.idea
+*.iml
+
+# git
+*.orig
